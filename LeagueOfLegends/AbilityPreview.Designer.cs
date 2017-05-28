@@ -1,6 +1,6 @@
 ﻿namespace LeagueOfLegends
 {
-    partial class Form1
+    partial class AbilityPreview
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AbilityPreview
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "AbilityPreview";
+            this.Text = "Ability Preview";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

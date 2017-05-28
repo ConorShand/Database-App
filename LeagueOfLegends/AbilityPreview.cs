@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LeagueOfLegends
 {
-    public partial class Form1 : Form
+    public partial class AbilityPreview : Form
     {
-        public Form1()
+        public AbilityPreview()
         {
             InitializeComponent();
         }
